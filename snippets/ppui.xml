@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ppui"
+          fetch="https://github.com/PixelPlusUI-SnowCone"
+          revision="snowcone" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="ppui" />
+  <project path="frameworks/native" name="frameworks_native" remote="ppui" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ppui" />
+	  
+  <project name="build_make"      path="build/make"       remote="ppui" groups="pdk" >
+    <copyfile src="core/root.mk"         dest="Makefile" />
+    <linkfile src="CleanSpec.mk"         dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core"                 dest="build/core" />
+    <linkfile src="envsetup.sh"          dest="build/envsetup.sh" />
+    <linkfile src="target"               dest="build/target" />
+    <linkfile src="tools"                dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="ppui" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
+  <!-- General repos -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="ppui" />
+  <project path="manifest" name="manifest" remote="ppui" />
+  <project path="external/selinux" name="external_selinux" remote="ppui" />
+
+  <!-- Hardware repos -->
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ppui" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="platform_system_core" remote="ppui" />
+  <project path="system/vold" name="system_vold" remote="ppui" />
+
+</manifest>

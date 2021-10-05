@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-18.1" />
+
+  <!-- CodeAurora additions -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
+
+</manifest>
