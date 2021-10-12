@@ -35,6 +35,8 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ppui" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ppui" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="ppui" />
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="ppui" />
@@ -52,5 +54,7 @@
 
   <!-- External Repos -->
   <project path="external/libbfqio" name="external_libbfqio" remote="ppui" />
+  <project path="external/themelib" name="external_themelib" remote="ppui" />
+  <project path="external/colorkt" name="external_colorkt" remote="ppui" />
 
 </manifest>
