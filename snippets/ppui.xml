@@ -24,7 +24,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="bionic" remote="ppui" />
-  
+  <project path="libcore" name="libcore" remote="ppui" />
+
   <!-- General repos -->
   <project path="bootable/recovery" name="bootable_recovery" remote="ppui" />
   <project path="manifest" name="manifest" remote="ppui" />
