@@ -56,6 +56,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ppui" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="ppui" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ppui" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="ppui" />
 
   <!-- External Repos -->
   <project path="external/themelib" name="external_themelib" remote="ppui" />
