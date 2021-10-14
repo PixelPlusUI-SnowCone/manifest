@@ -6,7 +6,7 @@
           revision="lineage-18.1" />
 
   <!-- LineageOS additions -->
-  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" />
+  <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" />
 
   <!-- CodeAurora additions -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
