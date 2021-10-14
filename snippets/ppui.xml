@@ -44,7 +44,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="ppui" />
 
   <!-- System Repos -->
-  <project path="system/core" name="platform_system_core" remote="ppui" />
+  <project path="system/core" name="system_core" remote="ppui" />
   <project path="system/vold" name="system_vold" remote="ppui" />
   <project path="system/sepolicy" name="system_sepolicy" remote="ppui" />
 
