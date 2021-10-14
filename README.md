@@ -59,6 +59,7 @@ mka bacon -jX
  * [**ProtonAOSP**](https://github.com/ProtonAOSP)
  * [**AOSiP**](https://github.com/AOSiP)
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
+ * [**xDroid**](https://github.com/xdroidsp)
 
 ![Support and Donation](https://i.imgur.com/aNanj7v.png "Support and Donation")
 
