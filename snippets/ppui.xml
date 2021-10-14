@@ -62,4 +62,7 @@
   <project path="external/themelib" name="external_themelib" remote="ppui" />
   <project path="external/colorkt" name="external_colorkt" remote="ppui" />
 
+  <!-- Vendor repos -->
+  <project path="vendor/ppui" name="vendor_ppui" remote="ppui" />
+
 </manifest>
