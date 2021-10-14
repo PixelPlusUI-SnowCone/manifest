@@ -30,6 +30,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="ppui" />
   <project path="manifest" name="manifest" remote="ppui" />
   <project path="external/selinux" name="external_selinux" remote="ppui" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="ppui" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="ppui" />
@@ -40,6 +41,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="ppui" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="ppui" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ppui" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="ppui" />
 
   <!-- System Repos -->
   <project path="system/core" name="platform_system_core" remote="ppui" />
