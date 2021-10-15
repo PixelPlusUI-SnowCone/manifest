@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixel"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="twelve" />
+
+  <project path="vendor/gapps" name="vendor_gapps" remote="pixel" />
+
+</manifest>
