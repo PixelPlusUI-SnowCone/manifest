@@ -7,4 +7,5 @@
 
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel" />
 
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="pixel" />
 </manifest>
