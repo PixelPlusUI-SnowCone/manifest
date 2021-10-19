@@ -9,7 +9,6 @@
   <project path="frameworks/base" name="frameworks_base" remote="ppui" />
   <project path="frameworks/native" name="frameworks_native" remote="ppui" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ppui" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="ppui" />
 	  
   <project name="build_make"      path="build/make"       remote="ppui" groups="pdk" >
     <copyfile src="core/root.mk"         dest="Makefile" />
@@ -25,7 +24,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="bionic" remote="ppui" />
-  <project path="libcore" name="libcore" remote="ppui" />
 
   <!-- General repos -->
   <project path="bootable/recovery" name="bootable_recovery" remote="ppui" />
@@ -35,15 +33,9 @@
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="ppui" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="ppui" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ppui" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="ppui" />
-  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="ppui" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="ppui" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ppui" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="ppui" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="ppui" />
@@ -62,10 +54,6 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="ppui" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="ppui" />
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="ppui" />
-
-  <!-- External Repos -->
-  <project path="external/themelib" name="external_themelib" remote="ppui" />
-  <project path="external/colorkt" name="external_colorkt" remote="ppui" />
 
   <!-- Vendor repos -->
   <project path="vendor/ppui" name="vendor_ppui" remote="ppui" />
