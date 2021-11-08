@@ -46,6 +46,7 @@
   <project path="system/core" name="system_core" remote="ppui" />
   <project path="system/vold" name="system_vold" remote="ppui" />
   <project path="system/sepolicy" name="system_sepolicy" remote="ppui" />
+  <project path="system/netd" name="system_netd" remote="pixel" />
 
   <!-- Device Repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ppui" />
