@@ -56,4 +56,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="ppui" />
   <project path="system/vold" name="system_vold" remote="ppui" />
 
+  <!-- Device Repos -->	  
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ppui" />
+
 </manifest>
