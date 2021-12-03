@@ -1099,9 +1099,12 @@
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- Add all PixelExperience repos -->
+  <!-- Add all custom repos -->
   <include name="snippets/pixel.xml" />
   <include name="snippets/pixel-extras.xml" />
   <include name="snippets/pixel-caf.xml" />
+
+  <!-- Add all PPUI repos -->
+  <include name="snippets/ppui.xml" />
 
 </manifest>
