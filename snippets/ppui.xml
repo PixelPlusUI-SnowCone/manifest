@@ -48,6 +48,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ppui" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ppui" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ppui" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="ppui" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="ppui" />
@@ -58,5 +59,7 @@
 
   <!-- Device Repos -->	  
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ppui" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ppui" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ppui" />
 
 </manifest>
