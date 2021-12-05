@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/PrvTTB9.jpg" />
+  <img src="https://i.imgur.com/YoZBnPt.jpg" />
 </p>
 
 # PixelPlusUI [![Download PixelPlusUI Builds](https://img.shields.io/sourceforge/dt/pixelplusui-project.svg)](https://sourceforge.net/projects/pixelplusui-project/files/eleven/)
@@ -51,7 +51,7 @@ lunch aosp_$device-userdebug
 mka bacon -jX
 ```
 
-![Credit](https://i.imgur.com/a6njYr9.png "Credit")
+![Credit](https://i.imgur.com/Jm0O4d1.jpg "Credit")
 
  * [**AOSP**](https://android.googlesource.com)
  * [**LineageOS**](https://github.com/LineageOS)
@@ -61,7 +61,7 @@ mka bacon -jX
  * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
  * [**xDroid**](https://github.com/xdroidsp)
 
-![Support and Donation](https://i.imgur.com/aNanj7v.png "Support and Donation")
+![Support and Donation](https://i.imgur.com/vfXdZIO.png "Support and Donation")
 
 ### Adding Support
  - For adding your device to the list of OFFICIALLY supported devices, you need to contact us on Telegram profiles below with device name and device, vendor, kernel trees.
