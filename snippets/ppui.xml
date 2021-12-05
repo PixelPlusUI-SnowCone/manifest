@@ -62,4 +62,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ppui" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ppui" />
 
+  <!-- External repos -->
+  <project path="external/selinux" name="external_selinux" remote="ppui" />
+
 </manifest>
