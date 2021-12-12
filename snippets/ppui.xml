@@ -35,6 +35,9 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ppui" />
   <project path="manifest" name="manifest" remote="ppui" />
   <project path="platform_testing" name="platform_testing" remote="ppui" />
+
+  <!-- Vendor Stuff -->
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="ppui" />
   <project path="vendor/aosp" name="vendor_aosp" remote="ppui" />
 
   <!-- Hardware repos -->
@@ -64,5 +67,7 @@
 
   <!-- External repos -->
   <project path="external/selinux" name="external_selinux" remote="ppui" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="ppui" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="ppui" />
 
 </manifest>
