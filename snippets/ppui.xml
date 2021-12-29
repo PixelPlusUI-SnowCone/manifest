@@ -35,6 +35,7 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ppui" />
   <project path="manifest" name="manifest" remote="ppui" />
   <project path="platform_testing" name="platform_testing" remote="ppui" />
+  <project path="libcore" name="platform_libcore" remote="ppui" />
 
   <!-- Vendor Stuff -->
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="ppui" />
