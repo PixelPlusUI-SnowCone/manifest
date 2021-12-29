@@ -30,7 +30,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="ppui" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="ppui" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="ppui" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ppui" />
   <project path="manifest" name="manifest" remote="ppui" />
