@@ -6,16 +6,16 @@
           revision="snowcone" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
+  <project path="frameworks/av" name="frameworks_av" remote="ppui" />
   <project path="frameworks/base" name="frameworks_base" remote="ppui" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
+  <project path="frameworks/native" name="frameworks_native" remote="ppui" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="ppui" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="ppui" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ppui" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="pixel" />
-  <project path="bionic" name="bionic" remote="pixel" />
+  <project path="art" name="art" remote="ppui" />
+  <project path="bionic" name="bionic" remote="ppui" />
   <project path="build/make" name="build" remote="ppui">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -25,49 +25,49 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="pixel" >
+  <project path="build/soong" name="build_soong" remote="ppui" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/blueprint" name="build_blueprint" remote="pixel" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
-  <project path="development" name="development" remote="pixel" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+  <project path="build/blueprint" name="build_blueprint" remote="ppui" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="ppui" />
+  <project path="development" name="development" remote="ppui" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="ppui" />
   <project path="manifest" name="manifest" remote="ppui" />
-  <project path="platform_testing" name="platform_testing" remote="pixel" />
+  <project path="platform_testing" name="platform_testing" remote="ppui" />
 
   <!-- Vendor Stuff -->
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="ppui" />
   <project path="vendor/aosp" name="vendor_aosp" remote="ppui" />
 
   <!-- Hardware repos -->
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="ppui" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="ppui" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="ppui" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="ppui" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ppui" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ppui" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ppui" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ppui" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="ppui" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="ppui" />
-  <project path="system/core" name="system_core" remote="pixel" />
-  <project path="system/netd" name="system_netd" remote="pixel" />
+  <project path="system/core" name="system_core" remote="ppui" />
+  <project path="system/netd" name="system_netd" remote="ppui" />
   <project path="system/sepolicy" name="system_sepolicy" remote="ppui" />
-  <project path="system/vold" name="system_vold" remote="pixel" />
+  <project path="system/vold" name="system_vold" remote="ppui" />
 
   <!-- Device Repos -->	  
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixel" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ppui" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ppui" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ppui" />
 
   <!-- External repos -->
-  <project path="external/selinux" name="external_selinux" remote="pixel" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
-  <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
+  <project path="external/selinux" name="external_selinux" remote="ppui" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="ppui" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="ppui" />
 
 </manifest>
