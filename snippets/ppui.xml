@@ -71,5 +71,6 @@
   <project path="external/selinux" name="external_selinux" remote="ppui" />
   <project path="external/tinycompress" name="external_tinycompress" remote="ppui" />
   <project path="external/tinyxml" name="external_tinyxml" remote="ppui" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="ppui" />
 
 </manifest>
