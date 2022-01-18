@@ -49,6 +49,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="ppui" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ppui" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ppui" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ppui" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ppui" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ppui" />
