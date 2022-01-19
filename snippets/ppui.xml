@@ -46,6 +46,11 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="ppui" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="ppui" />
 
+  <!-- Hardware repos - HALS -->
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_sdm845_audio" remote="ppui" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="ppui" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom-caf_sdm845_media" remote="ppui" />
+
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="ppui" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ppui" />
