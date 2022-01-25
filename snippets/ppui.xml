@@ -5,6 +5,10 @@
           fetch="https://github.com/PixelPlusUI-SnowCone"
           revision="snowcone" />
 
+  <remote name="ppui-devices"
+          fetch="https://github.com/PixelPlusUI-Devices"
+          revision="snowcone" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="ppui" />
   <project path="frameworks/base" name="frameworks_base" remote="ppui" />
