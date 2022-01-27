@@ -83,6 +83,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="ppui" />
   <project path="external/tinyxml" name="external_tinyxml" remote="ppui" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="ppui" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="ppui"/>
 
   <!-- Customizations repos -->
   <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="ppui" />
