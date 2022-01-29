@@ -80,6 +80,7 @@
 
   <!-- External repos -->
   <project path="external/fastrpc" name="external_fastrpc" remote="ppui" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="ppui" />
   <project path="external/selinux" name="external_selinux" remote="ppui" />
   <project path="external/tinycompress" name="external_tinycompress" remote="ppui" />
   <project path="external/tinyxml" name="external_tinyxml" remote="ppui" />
