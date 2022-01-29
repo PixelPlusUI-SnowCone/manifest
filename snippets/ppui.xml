@@ -60,6 +60,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ppui" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="ppui" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ppui" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="ppui" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="ppui" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="ppui" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="ppui" />
