@@ -103,4 +103,8 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="ppui" />
   <project path="vendor/officialdevices" name="official_devices_a12" remote="ppui-devices" />
 
+  <!-- Our CAF Repos -->
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="ppui" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ppui" />
+
 </manifest>
