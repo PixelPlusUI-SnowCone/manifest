@@ -97,4 +97,9 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="ppui" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="ppui" />
 
+  <!-- Updater Repos -->
+  <project path="system/update_engine" name="system_update_engine" remote="ppui" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="ppui" />
+  <project path="vendor/officialdevices" name="official_devices_a12" remote="ppui-devices" />
+
 </manifest>
