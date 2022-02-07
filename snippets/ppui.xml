@@ -72,6 +72,7 @@
   <project path="system/netd" name="system_netd" remote="ppui" />
   <project path="system/sepolicy" name="system_sepolicy" remote="ppui" />
   <project path="system/vold" name="system_vold" remote="ppui" />
+  <project path="system/logging" name="system_logging" remote="ppui" />
 
   <!-- Device Repos -->	  
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ppui" />
