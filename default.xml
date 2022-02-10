@@ -1100,9 +1100,9 @@
   <!-- Add all custom repos -->
   <include name="snippets/pixel.xml" />
   <include name="snippets/pixel-extras.xml" />
-  <include name="snippets/pixel-caf.xml" />
 
   <!-- Add all PPUI repos -->
   <include name="snippets/ppui.xml" />
+  <include name="snippets/ppui-caf.xml" />
 
 </manifest>

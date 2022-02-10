@@ -93,18 +93,12 @@
   <!-- Customizations repos -->
   <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="ppui" />
 
-  <!-- QTI BT Stack -->
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="ppui" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="ppui" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="ppui" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="ppui" />
-
   <!-- Updater Repos -->
   <project path="system/update_engine" name="system_update_engine" remote="ppui" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="ppui" />
   <project path="vendor/officialdevices" name="official_devices_a12" remote="ppui-devices" />
 
-  <!-- Our CAF Repos -->
+  <!-- Our Dataservices Repos -->
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="ppui" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ppui" />
 
