@@ -79,6 +79,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ppui" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ppui" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="ppui" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="ppui" />
 
   <!-- External repos -->
   <project path="external/fastrpc" name="external_fastrpc" remote="ppui" />
