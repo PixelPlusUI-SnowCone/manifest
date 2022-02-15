@@ -11,7 +11,7 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
 
   <!-- General repos -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="ppui-gitlab" clone-depth="1" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
 
   <!-- Hardware repos -->

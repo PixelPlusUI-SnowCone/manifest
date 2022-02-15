@@ -18,9 +18,9 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
 	  revision="twelve" />
 
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience"
-          revision="twelve" />
+  <remote name="ppui-gitlab"
+          fetch="https://gitlab.com/PixelPlusUI-SnowCone"
+          revision="snowcone" />
 
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
