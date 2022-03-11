@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="ppui-caf"
-          fetch="https://github.com/PixelPlusUI-SnowCone-CAF"
+          fetch="https://github.com/PixelPlusUI-CAF"
           revision="snowcone" />
 
   <!-- Device repos -->
