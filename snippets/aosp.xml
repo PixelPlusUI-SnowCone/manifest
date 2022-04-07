@@ -40,6 +40,7 @@
   <project path="external/fastrpc" name="external_fastrpc" remote="aosp-12.1" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aosp-12.1" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="aosp-12.1" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="aosp-12.1" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aosp-12.1" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="aosp-12.1" />
   
