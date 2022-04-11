@@ -12,6 +12,7 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/wlan" />
  <!-- Ril / Wi-Fi repos -->
   <remove-project name="platform/packages/modules/Wifi" />
