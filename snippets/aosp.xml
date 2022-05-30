@@ -37,6 +37,7 @@
   <project path="external/json-c" name="external_json-c" remote="aosp-12.1" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="aosp-12.1" />
   <project path="external/libcxx" name="external_libcxx" remote="aosp-12.1" />
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="aosp-12.1" />
   <project path="external/fastrpc" name="external_fastrpc" remote="aosp-12.1" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aosp-12.1" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="aosp-12.1" />
