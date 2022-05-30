@@ -8,6 +8,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/zlib" />
  <!-- Hardware repos -->
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/libhardware" />
