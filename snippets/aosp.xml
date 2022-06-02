@@ -77,6 +77,17 @@
   </project>
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="aosp-12.1" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="aosp-12.1" />
+
+  <!-- Clang 15 & Deps -->
+  <project path="external/harfbuzz_ng" name="external_harfbuzz_ng" remote="aosp-12.1" />
+  <project path="external/toolchain-utils" name="external_toolchain-utils" remote="aosp-12.1" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="aosp-12.1"/>
+  <project path="prebuilts/clang-tools" name="prebuilts-clang-tools" remote="gitlab" clone-depth="1" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="c02cf63008969d093744d434576612ba1a9b83d3" clone-depth="1" />
+  <!-- BenzoClang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-benzo" name="prebuilts_clang_host_linux-x86_clang-benzo" remote="gitlab" clone-depth="1" />
+  <!-- Qualcomm Snapdragon LLVM ARM Toolchain OEM -->
+  <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="prebuilts_clang_host_linux-x86_clang-sdclang" remote="aosp-12.1" clone-depth="1" />
   
   <!-- System Repos -->
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="aosp-12.1" />

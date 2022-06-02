@@ -53,5 +53,11 @@
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
+ <!-- Clang 15 Replaced Repos -->
+  <remove-project name="platform/external/harfbuzz_ng" />
+  <remove-project name="platform/external/toolchain-utils" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86"/>
+  <remove-project name="platform/prebuilts/clang-tools"/>
+  <remove-project name="platform/prebuilts/rust"/>
 </manifest>
 
